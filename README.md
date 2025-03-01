@@ -3,6 +3,11 @@
 
 This project focuses on surface crack detection using a **wall-climbing robot** equipped with deep learning-based computer vision models. The system aims to automate structural health monitoring by detecting cracks on walls and other surfaces in real-time. It utilizes advanced object detection models such as **YOLO** and **NanoDet**, ensuring accurate and efficient crack identification for various industrial and infrastructural applications.
 
+## 🎥 Demo Video  
+
+[![Watch the video](https://img.youtube.com/vi/RXseryDBY3o/maxresdefault.jpg)](https://youtu.be/RXseryDBY3o)
+
+
 ## 📖 Table of Contents | Mục lục  
 
 1. [📌 Introduction](#introduction)  
@@ -87,6 +92,8 @@ Here, we use the dataset: [Crack Finder Dataset.](https://universe.roboflow.com/
 ## 📝 Model Evaluation
 
 After training, evaluate the performance of the YOLO and NanoDet models on the test dataset.
+
+**You can also use the trained models available: [Here](https://drive.google.com/drive/folders/1MNZy7GY8FniXjPfr0P753e-TPtTk2l-E)**
 
 ***🏆 Evaluating YOLO Model***
 ```
@@ -261,7 +268,7 @@ This is a small but growing project, and every contribution counts. Thank you fo
 ## 📜 License & Legal Information  
 
 ### 🔹 Project License  
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.  
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.  
 
 ### 🔹 Third-Party Licenses  
 This project uses the following third-party libraries, which have their respective licenses:  
