@@ -1,0 +1,10 @@
+numpy==1.26.4
+opencv-python==4.10.0.84
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+matplotlib==3.10.0
+ultralytics==8.3.59
+gradio==5.17.0
+tkinter
+fastapi==0.115.8
+uvicorn==0.34.0
