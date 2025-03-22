@@ -13,7 +13,7 @@ load_config(cfg, cfg_path)
 logger = Logger(-1, use_tensorboard=False)
 predictor = Predictor(cfg, model_path, logger, device=device)
 
-video_path = "video_demo.mp4"
+video_path = "demo/video_demo.mp4"
 cap = cv2.VideoCapture(video_path)
 fps = cap.get(cv2.CAP_PROP_FPS)
 w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
